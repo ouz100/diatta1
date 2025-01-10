@@ -48,7 +48,9 @@ const Tutorials = () => {
                     src={tutorial.image}
                     alt={tutorial.title}
                     layout="fill"
-                    objectFit="cover"
+                    style={{ objectFit: "cover" }} 
+
+                    // objectFit="cover"
                     className="w-full h-48"
                   />
                 </div>
