@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles for specific elements */
+h1, h2, h3 {
+  @apply text-gray-800;
+}
+
+button {
+  @apply bg-blue-500 text-white font-semibold rounded-lg shadow hover:bg-blue-600 transition-all duration-200;
+}
+
+input, textarea {
+  @apply border border-gray-300 rounded-lg focus:ring-2 focus:ring-blue-500 focus:outline-none;
+}
